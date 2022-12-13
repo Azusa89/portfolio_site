@@ -4,6 +4,7 @@ import { HiHome } from "react-icons/hi";
 import { BiUserCircle } from "react-icons/bi";
 import { BiBook } from "react-icons/bi";
 import { FaMailBulk } from "react-icons/fa";
+import { MdWeb } from "react-icons/md";
 import { useState } from "react";
 
 const Nav = () => {
@@ -30,6 +31,13 @@ const Nav = () => {
         className={activeNav === "#experience" ? "active" : ""}
       >
         <BiBook />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => setActiveNav("#portfolio")}
+        className={activeNav === "#portfolio" ? "active" : ""}
+      >
+        <MdWeb />
       </a>
 
       <a
