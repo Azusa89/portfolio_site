@@ -9,6 +9,13 @@ import { FaReact } from "react-icons/fa";
 import { DiRuby } from "react-icons/di";
 import { DiRor } from "react-icons/di";
 import { SiPostgresql } from "react-icons/si";
+import { SiBlender } from "react-icons/si";
+import { SiAdobephotoshop } from "react-icons/si";
+import { SiAdobepremierepro } from "react-icons/si";
+import { SiAdobeillustrator } from "react-icons/si";
+import { SiAutodesk } from "react-icons/si";
+import { SiFigma } from "react-icons/si";
+import { SiTrello } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -18,7 +25,7 @@ const Experience = () => {
 
       <div className="container experience__container">
         <div className="experience__frontend">
-          <h3>Frontend Development</h3>
+          <h3>Web Development</h3>
           <div className="experience__content">
             <article className="experience__details">
               <AiFillHtml5 className="experience__details-icons" />
@@ -44,12 +51,6 @@ const Experience = () => {
               <FaReact className="experience__details-icons" />
               <h4>React</h4>
             </article>
-          </div>
-        </div>
-        <div className="experience__backend">
-          {/* End of front end */}
-          <h3>Backend Development</h3>
-          <div className="experience__content">
             <article className="experience__details">
               <DiRuby className="experience__details-icons" />
               <h4>Ruby</h4>
@@ -61,6 +62,40 @@ const Experience = () => {
             <article className="experience__details">
               <SiPostgresql className="experience__details-icons" />
               <h4>Postgresql</h4>
+            </article>
+            <article className="experience__details">
+              <SiFigma className="experience__details-icons" />
+              <h4>Figma</h4>
+            </article>
+          </div>
+        </div>
+        <div className="experience__backend">
+          {/* End of front end */}
+          <h3>Digital Creative</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <SiBlender className="experience__details-icons" />
+              <h4>Blender</h4>
+            </article>
+            <article className="experience__details">
+              <SiAdobephotoshop className="experience__details-icons" />
+              <h4>Photoshop</h4>
+            </article>
+            <article className="experience__details">
+              <SiAdobepremierepro className="experience__details-icons" />
+              <h4>Premiere Pro</h4>
+            </article>
+            <article className="experience__details">
+              <SiAdobeillustrator className="experience__details-icons" />
+              <h4>Illustrator</h4>
+            </article>
+            <article className="experience__details">
+              <SiAutodesk className="experience__details-icons" />
+              <h4>3DSMax</h4>
+            </article>
+            <article className="experience__details">
+              <SiTrello className="experience__details-icons" />
+              <h4>Trello</h4>
             </article>
           </div>
         </div>
