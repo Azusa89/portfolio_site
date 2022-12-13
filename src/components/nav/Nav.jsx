@@ -3,7 +3,6 @@ import "./nav.css";
 import { HiHome } from "react-icons/hi";
 import { BiUserCircle } from "react-icons/bi";
 import { BiBook } from "react-icons/bi";
-import { FaHandshake } from "react-icons/fa";
 import { FaMailBulk } from "react-icons/fa";
 import { useState } from "react";
 
@@ -32,13 +31,7 @@ const Nav = () => {
       >
         <BiBook />
       </a>
-      <a
-        href="#services"
-        onClick={() => setActiveNav("#services")}
-        className={activeNav === "#services" ? "active" : ""}
-      >
-        <FaHandshake />
-      </a>
+
       <a
         href="#contact"
         onClick={() => setActiveNav("#contact")}
