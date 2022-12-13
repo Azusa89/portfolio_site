@@ -24,12 +24,12 @@ const about = () => {
           </div>
 
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores
-            numquam nostrum iusto amet quia commodi dolorum cum earum ullam
-            libero doloribus harum magnam dolore sint saepe eum hic, natus rerum
-            nulla consequuntur modi nihil nisi! Laudantium, cumque! Officiis
-            sequi saepe blanditiis et. Amet laudantium beatae in facilis ratione
-            quos odio.
+            "Hi there, my name is Kaho Cheng and I am a British-born Hong Kong
+            person with a passion for 3D modeling and web development. I have
+            experience working as a casino dealer and English teacher, and have
+            spent many years honing my 3D modeling skills as a hobby. I am now
+            looking to use my skills and experiences to pursue a career in web
+            development and am excited to take on new challenges in this field."
           </p>
 
           <a href="contact" className="btn btn-primary">
