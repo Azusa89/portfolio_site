@@ -11,14 +11,14 @@ const data = [
     image: PONGIMG,
     title: "Pong Clone",
     github: "https://github.com/Azusa89/PongClone",
-    demo: "../pongDemo/pongindex.html",
+    demo: process.env.PUBLIC_URL + "/pongDemo/pongindex.html",
   },
   {
     id: 2,
     image: TODOLISTIMG,
     title: "ToDo List",
     github: "https://github.com/Azusa89/ToDoList",
-    demo: "../ToDoList/index.html",
+    demo: process.env.PUBLIC_URL + "/ToDoList/index.html",
   },
   {
     id: 3,
