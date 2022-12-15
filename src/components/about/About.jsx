@@ -2,6 +2,7 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/59798103.jpg";
 import { BiBook } from "react-icons/bi";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const about = () => {
   return (
@@ -16,11 +17,41 @@ const about = () => {
         </div>
         <div className="about__content">
           <div className="about__cards">
-            <article className="about__card">
-              <BiBook className="about__icon" />
-              <h5>Experience</h5>
-              <small>Boot Camp Grad</small>
-            </article>
+            <AnimationOnScroll
+              offset={200}
+              animateIn="animate__fadeInUp"
+              animateOut="animate__fadeOut"
+            >
+              <article className="about__card">
+                <BiBook className="about__icon" />
+                <h5>Experience</h5>
+                <small>Boot Camp Grad</small>
+              </article>
+            </AnimationOnScroll>
+            <AnimationOnScroll
+              delay={250}
+              offset={200}
+              animateIn="animate__fadeInUp"
+              animateOut="animate__fadeOut"
+            >
+              <article className="about__card">
+                <BiBook className="about__icon" />
+                <h5>Experience</h5>
+                <small>Boot Camp Grad</small>
+              </article>
+            </AnimationOnScroll>
+            <AnimationOnScroll
+              delay={500}
+              offset={200}
+              animateIn="animate__fadeInUp"
+              animateOut="animate__fadeOut"
+            >
+              <article className="about__card">
+                <BiBook className="about__icon" />
+                <h5>Experience</h5>
+                <small>Boot Camp Grad</small>
+              </article>
+            </AnimationOnScroll>
           </div>
 
           <p>

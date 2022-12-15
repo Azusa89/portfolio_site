@@ -5,6 +5,7 @@ import { AiFillPhone } from "react-icons/ai";
 import { FaMobileAlt } from "react-icons/fa";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const Contact = () => {
   const form = useRef();
@@ -28,30 +29,48 @@ const Contact = () => {
       <h2>Contact Me</h2>
       <div className="container contact__container">
         <div className="contact__options">
-          <article className="contact__option">
-            <MdEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>Chengy1989@hotmail.com</h5>
-            <a href="mailto:Chengy1989@hotmail.com" target="_blank">
-              Shoot me an Email!
-            </a>
-          </article>
-          <article className="contact__option">
-            <AiFillPhone className="contact__option-icon" />
-            <h4>Phone</h4>
-            <h5>N/A</h5>
-            <a href="mailto:Chengy1989@hotmail.com" target="_blank">
-              Ring me at work
-            </a>
-          </article>
-          <article className="contact__option">
-            <FaMobileAlt className="contact__option-icon" />
-            <h4>Mobile</h4>
-            <h5>N/A</h5>
-            <a href="mailto:Chengy1989@hotmail.com" target="_blank">
-              Ring me out of work
-            </a>
-          </article>
+          <AnimationOnScroll
+            offset={200}
+            animateIn="animate__fadeInLeft"
+            animateOut="animate__fadeOut"
+          >
+            <article className="contact__option">
+              <MdEmail className="contact__option-icon" />
+              <h4>Email</h4>
+              <h5>Chengy1989@hotmail.com</h5>
+              <a href="mailto:Chengy1989@hotmail.com" target="_blank">
+                Shoot me an Email!
+              </a>
+            </article>
+          </AnimationOnScroll>
+          <AnimationOnScroll
+            offset={200}
+            animateIn="animate__fadeInLeft"
+            animateOut="animate__fadeOut"
+          >
+            <article className="contact__option">
+              <AiFillPhone className="contact__option-icon" />
+              <h4>Phone</h4>
+              <h5>N/A</h5>
+              <a href="mailto:Chengy1989@hotmail.com" target="_blank">
+                Ring me at work
+              </a>
+            </article>
+          </AnimationOnScroll>
+          <AnimationOnScroll
+            offset={200}
+            animateIn="animate__fadeInLeft"
+            animateOut="animate__fadeOut"
+          >
+            <article className="contact__option">
+              <FaMobileAlt className="contact__option-icon" />
+              <h4>Mobile</h4>
+              <h5>N/A</h5>
+              <a href="mailto:Chengy1989@hotmail.com" target="_blank">
+                Ring me out of work
+              </a>
+            </article>
+          </AnimationOnScroll>
         </div>
         <form ref={form} onSubmit={sendEmail}>
           <input

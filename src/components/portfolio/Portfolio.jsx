@@ -4,6 +4,7 @@ import PONGIMG from "../../assets/PongGame.jpg";
 import TODOLISTIMG from "../../assets/ToDo_List.jpg";
 import RENTARETROIMG from "../../assets/rentaretro.jpg";
 import SUBSTRACKEDIMG from "../../assets/substracked.jpg";
+import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const data = [
   {
@@ -45,20 +46,26 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <article className="portfolio__item" key={id}>
-              <div className="portfolio__item-image">
-                <img src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-              <div className="portfolio__item-cta">
-                <a href={github} className="btn" target={"_blank"}>
-                  Github
-                </a>
-                <a href={demo} className="btn btn-primary" target={"_blank"}>
-                  Live Demo
-                </a>
-              </div>
-            </article>
+            <AnimationOnScroll
+              offset={id * 50 + 150}
+              animateIn="animate__fadeInUp"
+              animateOut="animate__fadeOut"
+            >
+              <article className="portfolio__item" key={id}>
+                <div className="portfolio__item-image">
+                  <img src={image} alt={title} />
+                </div>
+                <h3>{title}</h3>
+                <div className="portfolio__item-cta">
+                  <a href={github} className="btn" target={"_blank"}>
+                    Github
+                  </a>
+                  <a href={demo} className="btn btn-primary" target={"_blank"}>
+                    Live Demo
+                  </a>
+                </div>
+              </article>
+            </AnimationOnScroll>
           );
         })}
       </div>
