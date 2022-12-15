@@ -2,6 +2,8 @@ import React from "react";
 import "./about.css";
 import ME from "../../assets/59798103.jpg";
 import { BiBook } from "react-icons/bi";
+import { HiLocationMarker } from "react-icons/hi";
+import { GiGraduateCap } from "react-icons/gi";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const about = () => {
@@ -23,9 +25,9 @@ const about = () => {
               animateOut="animate__fadeOut"
             >
               <article className="about__card">
-                <BiBook className="about__icon" />
-                <h5>Experience</h5>
-                <small>Boot Camp Grad</small>
+                <GiGraduateCap className="about__icon" />
+                <h5>Qualification</h5>
+                <small>BAHons 1st</small>
               </article>
             </AnimationOnScroll>
             <AnimationOnScroll
@@ -36,8 +38,8 @@ const about = () => {
             >
               <article className="about__card">
                 <BiBook className="about__icon" />
-                <h5>Experience</h5>
-                <small>Boot Camp Grad</small>
+                <h5>Work Experience</h5>
+                <small>15+ years</small>
               </article>
             </AnimationOnScroll>
             <AnimationOnScroll
@@ -47,9 +49,9 @@ const about = () => {
               animateOut="animate__fadeOut"
             >
               <article className="about__card">
-                <BiBook className="about__icon" />
-                <h5>Experience</h5>
-                <small>Boot Camp Grad</small>
+                <HiLocationMarker className="about__icon" />
+                <h5>Location</h5>
+                <small>Tokyo</small>
               </article>
             </AnimationOnScroll>
           </div>
