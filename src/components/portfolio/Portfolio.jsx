@@ -4,6 +4,7 @@ import PONGIMG from "../../assets/PongGame.jpg";
 import TODOLISTIMG from "../../assets/ToDo_List.jpg";
 import RENTARETROIMG from "../../assets/rentaretro.jpg";
 import SUBSTRACKEDIMG from "../../assets/substracked.jpg";
+import MEMEGEN from "../../assets/react-meme-gen.jpg";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const data = [
@@ -34,6 +35,13 @@ const data = [
     title: "Substracked",
     github: "https://github.com/a-vasse/substracked",
     demo: "https://www.substracked.com/",
+  },
+  {
+    id: 5,
+    image: MEMEGEN,
+    title: "Meme Generator",
+    github: "https://github.com/Azusa89/react-meme-generator",
+    demo: "https://main.ddx19wqyoa3ja.amplifyapp.com/",
   },
 ];
 
