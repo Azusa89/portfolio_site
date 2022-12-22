@@ -5,6 +5,7 @@ import TODOLISTIMG from "../../assets/ToDo_List.jpg";
 import RENTARETROIMG from "../../assets/rentaretro.jpg";
 import SUBSTRACKEDIMG from "../../assets/substracked.jpg";
 import MEMEGEN from "../../assets/react-meme-gen.jpg";
+import NOTESAPP from "../../assets/my-notes-app.jpg";
 import { AnimationOnScroll } from "react-animation-on-scroll";
 
 const data = [
@@ -42,6 +43,13 @@ const data = [
     title: "Meme Generator",
     github: "https://github.com/Azusa89/react-meme-generator",
     demo: "https://main.ddx19wqyoa3ja.amplifyapp.com/",
+  },
+  {
+    id: 6,
+    image: NOTESAPP,
+    title: "Meme Generator",
+    github: "https://github.com/Azusa89/fullstack-aws-app/tree/main",
+    demo: "https://main.d2nzh9s80agdsv.amplifyapp.com/",
   },
 ];
 
