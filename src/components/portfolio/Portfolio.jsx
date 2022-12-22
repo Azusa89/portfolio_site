@@ -47,7 +47,7 @@ const data = [
   {
     id: 6,
     image: NOTESAPP,
-    title: "Meme Generator",
+    title: "My Notes app",
     github: "https://github.com/Azusa89/fullstack-aws-app/tree/main",
     demo: "https://main.d2nzh9s80agdsv.amplifyapp.com/",
   },
