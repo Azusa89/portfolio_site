@@ -65,7 +65,7 @@ const about = () => {
             development and am excited to take on new challenges in this field."
           </p>
 
-          <a href="contact" className="btn btn-primary">
+          <a href="#contact" className="btn btn-primary">
             Let's Talk
           </a>
         </div>
