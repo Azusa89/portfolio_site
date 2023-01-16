@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio_site/static/css/main.4e0c8ca2.css",
+    "main.css": "/portfolio_site/static/css/main.f434c2c2.css",
     "main.js": "/portfolio_site/static/js/main.9dda6171.js",
     "static/media/Kaho_Cheng_Resume_13-12-2022-20-03-28.pdf": "/portfolio_site/static/media/Kaho_Cheng_Resume_13-12-2022-20-03-28.240a41d1d04777656754.pdf",
     "static/media/rentaretro.jpg": "/portfolio_site/static/media/rentaretro.8df09a7c24d02baaf73f.jpg",
@@ -11,11 +11,11 @@
     "static/media/PongGame.jpg": "/portfolio_site/static/media/PongGame.524e58412d9e818d22b8.jpg",
     "static/media/59798103.jpg": "/portfolio_site/static/media/59798103.36b648d6b32e643b5f45.jpg",
     "index.html": "/portfolio_site/index.html",
-    "main.4e0c8ca2.css.map": "/portfolio_site/static/css/main.4e0c8ca2.css.map",
+    "main.f434c2c2.css.map": "/portfolio_site/static/css/main.f434c2c2.css.map",
     "main.9dda6171.js.map": "/portfolio_site/static/js/main.9dda6171.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e0c8ca2.css",
+    "static/css/main.f434c2c2.css",
     "static/js/main.9dda6171.js"
   ]
 }
