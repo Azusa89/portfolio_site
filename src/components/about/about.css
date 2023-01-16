@@ -3,7 +3,6 @@
   width: 90%;
   grid-template-columns: 50% 50%;
   gap: 1rem;
-  padding: 0 4rem;
   place-items: center;
 }
 
@@ -19,6 +18,10 @@
     transparent
   );
   display: grid;
+}
+
+.about__content {
+  width: 100%;
 }
 
 .about__me-image {
@@ -90,15 +93,18 @@
 }
 
 @media only screen and (max-width: 600px) {
+  .about__container {
+    padding: 0 1.5rem;
+  }
   .about__me {
     width: 65%;
-    margin: 0 auto 3rem;
+    margin: 0 auto 3rem auto;
   }
   .about__card h5 {
     grid-template-columns: 1fr 1fr;
     gap: 1rem;
   }
   .about__content p {
-    margin: 1.5rem 0;
+    margin: 5rem 1rem;
   }
 }
