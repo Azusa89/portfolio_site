@@ -7,7 +7,9 @@ function Fx() {
 
   useEffect(() => {
     const handleMouseMove = (event) => {
-      setMousePos({ x: event.clientX, y: event.clientY });
+      setTimeout(() => {
+        setMousePos({ x: event.clientX, y: event.clientY });
+      }, 200);
     };
 
     window.addEventListener("mousemove", handleMouseMove);
@@ -19,11 +21,12 @@ function Fx() {
 
   return (
     <>
-      <div
-        className="pointer"
-        style={{ left: `${mousePos.x}px`, top: `${mousePos.y}px` }}
-      ></div>
-      <div className="blur"></div>
+      <div className="fx-container">
+        <div
+          className="pointer"
+          style={{ left: `${mousePos.x}px`, top: `${mousePos.y}px` }}
+        ></div>
+      </div>
     </>
   );
 }
