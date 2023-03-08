@@ -13,7 +13,7 @@ import "animate.css/animate.min.css";
 const app = () => {
   return (
     <>
-      <Fx />
+      {/* <Fx /> */}
       <Header />
       <Nav />
       <About />
